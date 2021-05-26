@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab:wght@300&display=swap');
+body {
+    background-color: #cce4ea;
+    font-family: Poppins;
+}
+header {
+    background-image: url("../images/pan.png"); 
+    width: 100%;   
+    padding: 1em;
+    margin: -1em;
+}
+article {
+    padding: 2em;
+}
+.resume {
+    background-color: white;
+}
+.resInfo a {
+    color: black;
+}
+.resLabels {
+    font-weight: 900px;
+}
+.resName {
+    font-size: 44px;
+    text-align: center;
+}
+.resName {
+    align-items: center;
+}
+
+.sublabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 660px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #logo {
+    width: 25%;
+    margin-left: 2em;
+    }
+    .dropBtn {
+       font-size: 2em;
+       font-weight: bold;
+       color: white;
+       cursor: pointer;
+    }
+    .dropdownMenu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(6, 139, 171, 0.9);
+        color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        
+    }
+    .dropdown-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        list-style: none;
+    }
+    .dropdown-content a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+   
+    .dropdownMenu .dropBtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+    header span {
+        font-size: 2em;
+        color: white;
+        margin: 1em 1em 0 0; 
+        font-size: 2em;  
+        font-weight: bold;     
+    }
+    .name {
+        margin-top: 2em;
+    }
+    .name, .degree {
+        text-align: center;
+        
+    }
+    .schoolPic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: -2em;
+    }
+    .resInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
