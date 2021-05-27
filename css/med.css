@@ -43,6 +43,9 @@
         grid-template-columns: 6fr 6fr;
         padding: 2em 2em 0 2em;
     }
+    .aboutMe {
+        margin-right: 4em;
+    }
     .schoolPic {
         width: 50%;
       
@@ -54,16 +57,16 @@
     .siteImg {
         width: 80%;
     }
+    .web {
+        margin-top: -2em;
+    }
     .workImg {
         display: grid;
         grid-template-columns: 6fr 6fr;
         grid-gap: 2em;
         margin-right: 2em;
         margin-left: 2em;
-    }
-    
-  
-
+    }  
 
     /*Resume page*/
     .resInfo {
@@ -90,8 +93,12 @@
         display: grid;
         grid-template-columns: 6fr 6fr;
         grid-gap: 2em;
-        margin-top: 2em;
-        margin-left: 4em;
+        margin-top: 3em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .classList {
+        margin: 4em 4em;
     }
  
 }

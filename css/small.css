@@ -47,7 +47,7 @@ article {
     margin-top: 3em;
 }
 .classes img {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -55,7 +55,7 @@ article {
     align-items: center;
 }
 iframe {
-    width: 90%;
+    width: 100%;
     height: 50%;
 }
 .classList {
@@ -67,6 +67,7 @@ footer {
     background-image: url("../images/pan.png"); 
     width: 100%;   
     padding: 1em;
+    margin-top: 4em;
 }
 footer div {
     display: flex;
@@ -106,7 +107,7 @@ footer div span a {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: rgb(6, 139, 171, 0.9);
+        background-color: rgb(6, 139, 171, 0.95);
         color: white;
         overflow-x: hidden;
         transition: 0.5s;
