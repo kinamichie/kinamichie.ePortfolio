@@ -12,15 +12,21 @@ header {
 article {
     padding: 2em;
 }
+/*home*/
+.workImg img {
+    width: 100%;
+}
+.workImg h3 {
+    text-align: center;
+}
+/*resume*/
 .resume {
     background-color: white;
 }
 .resInfo a {
     color: black;
 }
-.resLabels {
-    font-weight: 900px;
-}
+
 .resName {
     font-size: 44px;
     text-align: center;
@@ -33,6 +39,47 @@ article {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/*college page*/
+.college h1 {
+    text-align: center;
+    margin-top: 3em;
+}
+.classes img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.classes div {
+    align-items: center;
+}
+iframe {
+    width: 90%;
+    height: 50%;
+}
+.classList {
+    margin-bottom: 3px;
+}
+
+/*footer*/
+footer {
+    background-image: url("../images/pan.png"); 
+    width: 100%;   
+    padding: 1em;
+}
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+}
+footer div span {
+    color: white;
+}
+footer div span a {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -114,5 +161,9 @@ article {
         flex-direction: column;
         align-items: center;
     }
+    main {
+        margin: 0 1em 0 1em;
+    }
+    /*college*/
 
 }

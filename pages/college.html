@@ -1,28 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/med.css">
-    <link rel="stylesheet" href="css/large.css">
-    <title></title>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">    
-</head>
-<body>
-    <header>
-        <img id="logo" src="images/logo.png" alt="A picture of my logo">
-        <nav id="dropdown" class="dropdownMenu">
-            <a href="javascript:void(0)" onclick="closeMenu()" class="dropBtn">&times;</a>
-            <ul  class="dropdown-content">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/resume.html">Resume</a></li>
-                <li><a href="pages/college.html">College Projects</a></li>
-            </ul>
-        </nav>
-        <span onclick="dropMenu()">&#9776;</span>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/small.css">
+        <link rel="stylesheet" href="../css/med.css">
+        <link rel="stylesheet" href="../css/large.css">
+        <title>Kina Michie/College</title>
+        <link rel="shortcut icon" type="image/png" href="../images/favicon.png">    
+    </head>
+    <body class="college">
+        <header>
+            <img id="logo" src="../images/logo.png" alt="A picture of my logo">
+            <nav id="dropdown" class="dropdownMenu">
+                <a href="javascript:void(0)" onclick="closeMenu()" class="dropBtn">&times;</a>
+                <ul  class="dropdown-content">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/resume.html">Resume</a></li>
+                    <li><a href="../pages/college.html" class="active">College Projects</a></li>
+                </ul>
+            </nav>
+            <span onclick="dropMenu()">&#9776;</span>
+        </header>
+        <main >
+            <h1>College Projects</h1>
+            <div class="classes">
+                <div>
+                 <h2>CIT 230 Frontend Development</h2>
+                 <p>Click on the image and it will take you to the portal where the sites that I build are.</p>
+                 <a href="https://kinamichie.github.io/" target="_blank"><img src="../images/cit-front.png" alt="An image of the Kina Michie's portal to CIT 230 class"></a>
+                </div>
+                <div>
+                    <h2>CIT 330 Mobile Applications and Design</h2>
+                    <p>Click on the image and it will take you to the portal where you can see the projects I built.</p>
+                    <a href="https://kinamichie.github.io/kinamichie.WDD330/" target="_blank"><img src="../images/wdd-330.png" alt="An image of the Kina Michie's portal to CIT 330 class"></a>
+                </div>
+                <div>
+                    <h2>COMM 130 Visual Media</h2>
+                    <p>This class focused on building ads for web media. Below is an example of my work.</p>
+                    <img src="../images/ad_michie.jpg" alt="An image of an ad done by Kina Michie">
+                </div>
+                <div>
+                    <h2>CIT 336 Web Backend Development</h2>
+                    <p>This class focused on building ads for web media. Below is an example of my work.</p>
+                    <iframe src="https://www.youtube.com/embed/wPsqGxaoLL0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="classList">
+                <h3>Other Classes I've Taken Pertaining to Web Development:</h3>
+                <ul>
+                    <li>CIT 225 Database Design and Development. This class taught SQL and how to work with Oracle.</li>
+                    <li>CIT 260 Object Oriented Programming. The computer language associated with this class was Java.</li>
+                    <li>CIT 262 System Analysis and Design. During the course of this class, I analyzed work flow and how to improve it in a technology oriented workplace.</li>
+                    <li>CS 308 Technical Communication. This class taught how to communicate effectively in technical environment.</li>
+                    <li>WDD 331 Advanced CSS. This class used SASS, Bootstrap, and animation.</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div>            
+                <span>
+                    &copy; Kina Michie 2021 
+                </span>
+                <span><a href="pages/privacy.html">Privacy Policy</a></span>
+            </div>
+        </footer>
 
 
     <script src="../js/buttons.js"></script>
