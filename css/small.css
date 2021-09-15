@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab:wght@300&display=swap');
 body {
-    background-color: #cce4ea;
+    background-color: #212529;
     font-family: Poppins;
+    color: white;
 }
 header {
     background-image: url("../images/pan.png"); 
@@ -25,15 +26,18 @@ article {
     background-color: #068bab;
     padding: .75em;
     border-radius: 12px;
-    width: 10%;
-    margin-left: 48%;      
+    width: 10%;         
 }
 .contact_me {
-    margin: 4em 0;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+   
 }
 /*resume*/
 .resume {
     background-color: white;
+    color: black;
 }
 .resInfo a {
     color: black;
