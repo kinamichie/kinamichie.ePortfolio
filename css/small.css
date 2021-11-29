@@ -20,6 +20,9 @@ article {
 .workImg h3 {
     text-align: center;
 }
+.aboutMe p {
+    padding-top: 2em;
+}
 .contact {
     text-decoration: none;
     color: white;
