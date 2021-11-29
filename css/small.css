@@ -21,15 +21,19 @@ article {
     text-align: center;
 }
 .aboutMe p {
+    padding: 2em 0em;
+}
+.web {
     padding-top: 2em;
 }
 .contact {
     text-decoration: none;
+    text-align: center;
     color: white;
     background-color: #068bab;
     padding: .75em;
     border-radius: 12px;
-    width: 10%;         
+    width: 22%;         
 }
 .contact_me {
     display: flex;
